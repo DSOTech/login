@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="form-container">
+        <h1>Log In</h1>
+    <form class="form" method="post" onsubmit="return submitted()" name="form">
+        
+        <div class="label">Email:</div><br>
+        <input type="text" autocomplete="off" placeholder="Email" name="email"><br>
+        <div id="email_error">Please fill your email</div>
+        <div class="label labelSecond">Password:</div><br>
+        <input type="password" placeholder="Password" name="password"> <br>
+        <div id="pass_error">Please provide your password</div>
+        <button class="btn" type="submit">Log in</button>
+    </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
